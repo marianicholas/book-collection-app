@@ -1,0 +1,241 @@
+::-webkit-input-placeholder {
+   color: #777C1D;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #777C1D;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #777C1D;  
+}
+
+:-ms-input-placeholder {  
+   color: #777C1D;  
+}
+
+* {
+	margin: 0 auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	margin: 0;
+	height: auto;
+}
+
+body {
+	font-family: 'Whitney SSm A', 'Whitney SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
+	color: #4A4A4A;
+}
+
+.container {
+	max-width: 1440px;
+	padding: 3%;
+	margin-top: 0%;
+}
+
+.header-area {
+	margin-bottom: 7%;
+}
+
+button {
+	font-family: 'Whitney SSm A', 'Whitney SSm B'; 
+	border: 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 5px;
+	background: #777C1D;
+	float: left;
+}
+
+.plus-sign {
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.button-text {
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.search-bar {
+	float: left;
+	background: url('../images/search-icon-777C1D.png') no-repeat;
+	margin-top: 7px;
+}
+
+.search {
+	color: green;
+	font-family: 'Whitney SSm A', 'Whitney SSm B'; 
+	font-weight: 400; 
+    font-size: 1em;
+    padding: 8px;
+    padding-left: 0;
+    width: 160%;
+    margin-left: 40px;
+    border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-color: #ADB521;
+}
+
+.search:focus {
+	color: #777C1D;
+}
+
+
+.logo {
+	float: right;
+	margin-top: -15px;
+}
+
+
+.table-area {
+	width: 50%;
+	float: left;
+	height: 38em;
+	overflow-y: scroll;
+}
+
+table {
+    font-family: 'Whitney SSm A', 'Whitney SSm B'; 
+	font-weight: 500; 
+	font-size: .9em;
+	line-height: 1.45em;
+}
+
+th {
+	height: 20px;
+    text-align: left;
+    font-size: .9em;
+    padding: 8px;
+    padding-left: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+td {
+    text-align: left;
+    height: 3%;
+    vertical-align: top;
+    padding: 10px;
+    padding-left: 15px;
+    letter-spacing: -.02em;
+}
+
+tr:nth-child(even) {
+    background-color: #ECEAE7;
+}
+
+tr:nth-child(odd) {
+    background-color: #F6F3F1;
+}
+
+th:first-child {
+	background-color: #74695B;
+	border-right: 2px solid white;
+}
+
+th:nth-child(2) {
+	background-color: #C27738;
+	border-right: 2px solid white;
+}
+
+th:nth-child(3) {
+	background-color: #CEAC2F;
+	border-right: 2px solid white;
+}
+
+th:nth-child(4) {
+	background-color: #007D7D;
+}
+
+td:first-child {
+	border-right: 2px solid white;
+}
+
+td:nth-child(2) {
+	border-right: 2px solid white;
+}
+
+td:nth-child(3) {
+	border-right: 2px solid white;
+}
+
+.right-area {
+	width: 48%;
+	float: right;
+	height: 38em;
+	background-color: #F6F3F1;
+/*	margin-bottom: 10%;*/
+}
+
+.top-bar {
+	width: 100%;
+	height: 36px;
+	background-color: #4A4A4A;
+}
+
+.book-detail {
+	padding-top: 5%;
+	padding-left: 7%;
+}
+
+.book-title-text {
+	font-size: 1.8em;
+	font-weight: 600;
+	line-height: 1.4em;
+	margin-bottom: 2%;
+	margin-right: 6%;
+}
+
+.author-text {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-bottom: 3%;
+	margin-right: 6%;
+}
+
+img[src*="about-face.jpg"] {
+	box-shadow: 8px 8px #D4CACA;
+	margin-bottom: 2%;
+	margin-right: 4%;
+	float:left;
+}
+
+.book-details-text li {
+	font-size: .95em;
+	line-height: 1.3em;
+	margin-bottom: .7em;
+	margin-right: 1em;
+	font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.book-summary-text {
+/*	overflow: hidden; */width: 95%;
+	padding-top: 2%;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	letter-spacing: -0.02em;
+	padding-bottom: 7%;
+}
+
+.bold-title {
+	font-weight: 600;
+}
+
+
