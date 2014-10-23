@@ -108,6 +108,8 @@ button {
 	overflow-y: scroll;
 }
 
+
+
 table {
     font-family: 'Whitney SSm A', 'Whitney SSm B'; 
 	font-weight: 500; 
@@ -115,9 +117,17 @@ table {
 	line-height: 1.45em;
 }
 
-th {
+table tbody {	
+	overflow-y: scroll;
+}
+
+thead {	
 	height: 20px;
     text-align: left;
+/*    position: fixed;*/
+}
+
+th {
     font-size: .9em;
     padding: 8px;
     padding-left: 15px;
@@ -147,32 +157,43 @@ tr:nth-child(odd) {
 th:first-child {
 	background-color: #74695B;
 	border-right: 2px solid white;
+	width: 10%;
 }
 
 th:nth-child(2) {
 	background-color: #C27738;
 	border-right: 2px solid white;
+	width: 45%;
 }
 
 th:nth-child(3) {
 	background-color: #CEAC2F;
 	border-right: 2px solid white;
+	width: 25%;
 }
 
 th:nth-child(4) {
 	background-color: #007D7D;
+	width: 10%;
 }
 
 td:first-child {
 	border-right: 2px solid white;
+	width: 10%;
 }
 
 td:nth-child(2) {
 	border-right: 2px solid white;
+	width: 45%;
 }
 
 td:nth-child(3) {
 	border-right: 2px solid white;
+	width: 25%;
+}
+
+td:nth-child(4) {
+	width: 10%;
 }
 
 .right-area {
@@ -180,6 +201,7 @@ td:nth-child(3) {
 	float: right;
 	height: 38em;
 	background-color: #F6F3F1;
+/*	overflow-y: scroll;*/
 /*	margin-bottom: 10%;*/
 }
 
@@ -197,7 +219,7 @@ td:nth-child(3) {
 .book-title-text {
 	font-size: 1.8em;
 	font-weight: 600;
-	line-height: 1.4em;
+	line-height: 1.35em;
 	margin-bottom: 2%;
 	margin-right: 6%;
 }
@@ -218,7 +240,7 @@ img[src*="about-face.jpg"] {
 
 .book-details-text li {
 	font-size: .95em;
-	line-height: 1.3em;
+	line-height: 1.2em;
 	margin-bottom: .7em;
 	margin-right: 1em;
 	font-weight: 400;
@@ -231,7 +253,6 @@ img[src*="about-face.jpg"] {
 	font-size: 1.1em;
 	line-height: 1.5em;
 	letter-spacing: -0.02em;
-	padding-bottom: 7%;
 }
 
 .bold-title {
