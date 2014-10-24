@@ -56,7 +56,7 @@ button {
     margin-right: 10px;
     color: #fff;
     border-radius: 5px;
-	background: #777C1D;
+	background: #ADB521;
 	float: left;
 }
 
@@ -269,25 +269,22 @@ img[src*="about-face.jpg"] {
 .add-book-overlay {
 	position: absolute;
 	clear:both;
-	width: 30%;
-	height: 15em;
+	width: 25em;
+	height: 40em;
 	background-color: #ffffff;
 	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
 	margin-top: -30px;
 }
 
-.find-book {
-	width: 50%;
-}
-
 .back-arrow  {
-	float: left;
-	margin: 12px;
+	position: absolute;
+	top: 12px;
+	left: 12px;
 }
 
 .add-text {
-	float:left;
+	text-align: center;
 	margin: 12px;
 	text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -298,12 +295,13 @@ img[src*="about-face.jpg"] {
 }
 
 .close-icon {
-	float: right;
-	margin: 12px;
+	position: absolute;
+	top: 12px;
+	right: 12px;
 }
 
-.find-button {
-	background: #ADB521;
+.add-this-book-button {
+	background: #777C1D;
 	margin: 20px;
 	position: absolute;
 	right: 0;
@@ -311,13 +309,6 @@ img[src*="about-face.jpg"] {
 	font-weight: 500;
 	letter-spacing: 0.1em;
 	font-size: .8em;
-}
-
-.find-book-search {
-	margin-top: 50px;
-	background: url('../images/gray-search-icon.png') no-repeat; background-position: left;
-	margin-left: 15px;
-	width: 50%;
 }
 
 hr {
@@ -329,3 +320,40 @@ hr {
     padding: 0;
     clear:both;
 }
+
+
+img[src*="100-journals-book.png"] {
+    border: 1px solid #979797;
+    background: transparent;
+    box-shadow: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.found-book-title {
+	font-size: 1.5em;
+	font-weight: 600;
+	line-height: 1.3em;
+	margin-top: .7em;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+    
+.found-book-authors {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	margin-top: .7em;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+.found-book-details {
+	font-size: 1em;
+	line-height: 1.1em;
+	margin-top: .7em;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
