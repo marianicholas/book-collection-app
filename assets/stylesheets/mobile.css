@@ -1,0 +1,13 @@
+/* Media queries go here */
+
+@media (max-width: 800px) {
+ 	.logo {
+ 		float: none;
+     margin-left: auto;
+    margin-right: auto;
+ 	}
+ 	.search-bar {
+ 		 		float: none;
+ 		vertical-align: center;
+ 	}
+}
